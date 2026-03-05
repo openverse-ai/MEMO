@@ -7,7 +7,7 @@
 [Yunfei Xie](https://yunfeixie233.github.io/)<sup>*,1</sup>,
 [Kevin Wang](https://www.kevin-ai.com/)<sup>*,+,2</sup>,
 [Bobby Cheng](https://x.com/bobbycxy)<sup>*,4</sup>,
-[Jianzhu Yao](https://scholar.google.com/citations?user=L5XDYTIAAAAJ&hl=en)<sup>*,3</sup>,
+[Jianzhu Yao](https://scholar.google.com/citations?user=L5XDYTIAAAAJ&hl=en)<sup>3</sup>,
 [Zhizhou Sha](https://jamessand.github.io/)<sup>2</sup>,
 [Alexander Duffy](https://www.linkedin.com/in/alex-d/)<sup>5</sup>,
 [Yihan Xi](https://scholar.google.com/citations?user=34s2YS0AAAAJ&hl=en)<sup>2</sup>,
