@@ -33,6 +33,11 @@ MEMO is a self-play framework that treats inference-time context as an optimizab
 
 Across five text-based games, MEMO raises mean win rate from **24.9% to 49.5%** for GPT-4o-mini and **21.7% to 44.3%** for Qwen-2.5-7B-Instruct using a mere budget of 2000 self-play games per task.
 
+<p align="center">
+  <img src="assets/comparison_visual.png" width="100%">
+</p>
+<p align="center"><b>Left:</b> Standard LLM agents discard experience after each game. <b>Middle:</b> RL approaches learn from reward signals but require many samples. <b>Right:</b> MEMO recognizes patterns from trajectories, extracts insights, and accumulates them in a memory bank across generations.</p>
+
 The system combines:
 - **Tournament-based evaluation** using TrueSkill / win-rate ratings
 - **Trajectory memory** for learning from successful game patterns
