@@ -240,5 +240,7 @@ If you find this work useful, please cite:
 
 ## Acknowledgments
 
+The authors thank Good Start Labs and Sentient for their financial support of the experiment costs of this work.
+
 Built on top of:
 - [TextArena](https://github.com/TextArena/TextArena) — Multi-agent text-based game framework
