@@ -36,7 +36,7 @@ Across five text-based games, MEMO raises mean win rate from **24.9% to 49.5%** 
 <p align="center">
   <img src="assets/comparison_visual.png" width="100%">
 </p>
-<p align="center"><b>Left:</b> Standard LLM agents discard experience after each game. <b>Middle:</b> RL approaches learn from reward signals but require many samples. <b>Right:</b> MEMO recognizes patterns from trajectories, extracts insights, and accumulates them in a memory bank across generations.</p>
+<p align="left"><b>Left:</b> Standard LLM agents discard experience after each game. <b>Middle:</b> RL approaches learn from reward signals but require many samples. <b>Right:</b> MEMO recognizes patterns from trajectories, extracts insights, and accumulates them in a memory bank across generations.</p>
 
 The system combines:
 - **Tournament-based evaluation** using TrueSkill / win-rate ratings
