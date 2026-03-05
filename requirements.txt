@@ -1,0 +1,10 @@
+-e ./TextArena
+wandb
+vllm
+ray>=2.43.0
+torch
+transformers
+peft
+trueskill
+pynvml
+dm-tree

@@ -1,0 +1,109 @@
+{
+  "opening_balanced_normal": {
+    "description": "Early game with balanced positions",
+    "keywords": [
+      "opening",
+      "start",
+      "early",
+      "initial",
+      "balanced"
+    ],
+    "examples": [
+      "Game just started",
+      "First few moves"
+    ]
+  },
+  "midgame_balanced_normal": {
+    "description": "Middle game with roughly equal chances",
+    "keywords": [
+      "middle",
+      "midgame",
+      "developing",
+      "balanced"
+    ],
+    "examples": [
+      "Pieces developed",
+      "No clear advantage"
+    ]
+  },
+  "endgame_winning_critical": {
+    "description": "Late game with winning opportunity",
+    "keywords": [
+      "endgame",
+      "winning",
+      "advantage",
+      "critical"
+    ],
+    "examples": [
+      "Clear material advantage",
+      "Winning position"
+    ]
+  },
+  "game_start_3": {
+    "description": "The game has just started, and the board is empty. Player 0 ('O') has the first move. The objective is to achieve three 'O's in a row horizontally, vertically, or diagonally.",
+    "keywords": [
+      "new game",
+      "empty board",
+      "first move",
+      "strategic opening"
+    ],
+    "examples": [
+      "You are Player 0 in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or di"
+    ],
+    "created": "2025-09-04T05:14:07.060905"
+  },
+  "TicTacToe_MidGame_DiagonalFocus_4": {
+    "description": "Mid-game Tic Tac Toe scenario where Player 0, having established control of the center, continues building towards diagonal win condition despite Player 1's reactions",
+    "keywords": [
+      "Tic Tac Toe",
+      "mid-game",
+      "diagonal win",
+      "center control",
+      "opponent blocking"
+    ],
+    "examples": [
+      "\n[GAME] You are Player 1 in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, verticall"
+    ],
+    "created": "2025-09-05T04:24:24.078617"
+  },
+  "TicTacToe_LateGame_Defense_5": {
+    "description": "Late game, tactical defense required. Player X must block O from winning.",
+    "keywords": [
+      "late game",
+      "defense",
+      "blocking",
+      "tactical"
+    ],
+    "examples": [
+      "\n[GAME] You are Player 0 in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, verticall"
+    ],
+    "created": "2025-09-05T12:45:01.185479"
+  },
+  "TicTacToe_Endgame_OneMoveRemaining_Player1Win_6": {
+    "description": "Endgame state where only one move remains. Player 1 has already won at this point.",
+    "keywords": [
+      "endgame",
+      "one move left",
+      "player 1 wins",
+      "terminal state"
+    ],
+    "examples": [
+      "\n[GAME] You are Player 0 in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, verticall"
+    ],
+    "created": "2025-09-05T20:12:29.294781"
+  },
+  "\u521d\u59cb\u5e03\u5c40_7": {
+    "description": "\u5f53\u524d\u68cb\u76d8\u4e3a\u7a7a\uff0c\u53cc\u65b9\u8fd8\u6ca1\u6709\u843d\u5b50\uff0c\u662f\u6e38\u620f\u7684\u8d77\u59cb\u72b6\u6001\u3002\u73a9\u5bb60 ('O') \u9762\u4e34\u7740\u591a\u79cd\u5f00\u5c40\u7b56\u7565\u53ef\u4ee5\u9009\u62e9\uff0c\u5305\u62ec\u4e2d\u5fc3\u70b9\u3001\u8fb9\u89d2\u6216\u4e2d\u95f4\u7684\u8fb9\u7f18\u4f4d\u7f6e\u6765\u63a7\u5236\u66f4\u591a\u7684\u6f5c\u5728\u80dc\u5229\u7ec4\u5408\u3002",
+    "keywords": [
+      "\u5f00\u5c40",
+      "\u7a7a\u68cb\u76d8",
+      "\u521d\u59cb\u72b6\u6001",
+      "\u591a\u79cd\u7b56\u7565",
+      "\u63a7\u5236\u80dc\u52bf"
+    ],
+    "examples": [
+      "\n[GAME] You are Player 0 in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, verticall"
+    ],
+    "created": "2025-09-05T23:13:52.550621"
+  }
+}

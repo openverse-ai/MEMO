@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unstable-rl"
+version = "0.2.0"
+description = "An Async Online Multi-Agent RL library for training reasoning models on TextArena games."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{name="anonymous", email="anonymous"},]
+dependencies = [ "textarena @ file:./TextArena", "wandb", "vllm", "ray>=2.43.0", "torch", "transformers", "peft", "trueskill", "pynvml", "dm-tree"]
+
+[tool.setuptools.packages.find]
+include = ["unstable*", "envs*", "evolution*", "mpr*"]
+exclude = ["wandb*", "outputs*", "data*", "logs*", "tests*"]
+
+[project.urls]
+"Homepage" = "https://github.com/LeonGuertler/UnstableBaselines"
+
+
+[project.scripts]
+unstable-terminal = "unstable.terminal_interface:main"d

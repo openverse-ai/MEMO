@@ -1,0 +1,4 @@
+[submodule "textarena"]
+	path = TextArena
+	url = https://github.com/TextArena/TextArena.git
+	branch = mpr

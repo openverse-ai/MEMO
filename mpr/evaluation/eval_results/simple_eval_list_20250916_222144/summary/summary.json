@@ -1,0 +1,124 @@
+{
+  "config": {
+    "evolved_model": "openai/gpt-4o-mini",
+    "eval_model_list": [
+      "openai/gpt-4o-mini"
+    ],
+    "env": "SimpleNegotiation-v0-short",
+    "eval_rounds": 20,
+    "repeat_time": 3,
+    "temperature": 0.0,
+    "timestamp": "2025-09-16T22:24:30.327800"
+  },
+  "runs": [
+    {
+      "run_number": 1,
+      "timestamp": "2025-09-16T22:22:38.896814",
+      "config": {
+        "evolved_model": "openai/gpt-4o-mini",
+        "eval_model_list": [
+          "openai/gpt-4o-mini"
+        ],
+        "env": "SimpleNegotiation-v0-short",
+        "eval_rounds": 20,
+        "temperature": 0.0
+      },
+      "results": {
+        "openai/gpt-4o-mini": {
+          "best_win_rate": 0.42500000000000004,
+          "best_loss_rate": 0.575,
+          "best_draw_rate": 0.0,
+          "games_played": 40
+        },
+        "overall": {
+          "win_rate": 0.425,
+          "loss_rate": 0.575,
+          "draw_rate": 0.0,
+          "trueskill": 23.91948382903863,
+          "avg_win_rate": 0.42500000000000004,
+          "games_played": 40
+        }
+      }
+    },
+    {
+      "run_number": 2,
+      "timestamp": "2025-09-16T22:23:32.114460",
+      "config": {
+        "evolved_model": "openai/gpt-4o-mini",
+        "eval_model_list": [
+          "openai/gpt-4o-mini"
+        ],
+        "env": "SimpleNegotiation-v0-short",
+        "eval_rounds": 20,
+        "temperature": 0.0
+      },
+      "results": {
+        "openai/gpt-4o-mini": {
+          "best_win_rate": 0.42500000000000004,
+          "best_loss_rate": 0.575,
+          "best_draw_rate": 0.0,
+          "games_played": 40
+        },
+        "overall": {
+          "win_rate": 0.425,
+          "loss_rate": 0.575,
+          "draw_rate": 0.0,
+          "trueskill": 24.99675825828298,
+          "avg_win_rate": 0.42500000000000004,
+          "games_played": 40
+        }
+      }
+    },
+    {
+      "run_number": 3,
+      "timestamp": "2025-09-16T22:24:30.320846",
+      "config": {
+        "evolved_model": "openai/gpt-4o-mini",
+        "eval_model_list": [
+          "openai/gpt-4o-mini"
+        ],
+        "env": "SimpleNegotiation-v0-short",
+        "eval_rounds": 20,
+        "temperature": 0.0
+      },
+      "results": {
+        "openai/gpt-4o-mini": {
+          "best_win_rate": 0.375,
+          "best_loss_rate": 0.625,
+          "best_draw_rate": 0.0,
+          "games_played": 40
+        },
+        "overall": {
+          "win_rate": 0.375,
+          "loss_rate": 0.625,
+          "draw_rate": 0.0,
+          "trueskill": 25.022588606995676,
+          "avg_win_rate": 0.375,
+          "games_played": 40
+        }
+      }
+    }
+  ],
+  "final_statistics": {
+    "openai/gpt-4o-mini": {
+      "win_rate_mean": 0.4083333333333334,
+      "win_rate_std": 0.023570226039551605,
+      "loss_rate_mean": 0.5916666666666667,
+      "loss_rate_std": 0.023570226039551605,
+      "draw_rate_mean": 0.0,
+      "draw_rate_std": 0.0
+    },
+    "overall": {
+      "win_rate_mean": 0.4083333333333334,
+      "win_rate_std": 0.02357022603955158,
+      "loss_rate_mean": 0.5916666666666667,
+      "loss_rate_std": 0.023570226039551605,
+      "draw_rate_mean": 0.0,
+      "draw_rate_std": 0.0,
+      "trueskill_mean": 24.646276898105764,
+      "trueskill_std": 0.5140284853725983,
+      "avg_win_rate_mean": 0.4083333333333334,
+      "avg_win_rate_std": 0.023570226039551605
+    }
+  }
+}
