@@ -21,7 +21,7 @@
 
 <sup>*</sup>Equal Contribution &nbsp; <sup>+</sup>Project Leader &nbsp; <sup>&dagger;</sup>Equal Advising
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://yunfeixie233.github.io/MEMO/)
+[![Website](https://img.shields.io/badge/Website-Project%20Page-blue)](https://yunfeixie233.github.io/MEMO/)
 
 </div>
 
